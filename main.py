@@ -30,7 +30,7 @@ def alpha_chars(dict):
     for k in dict:
         if k.isalpha():
             list_of_chars.append({"letter": k, "num": dict[k]})
-    return list_of_chars[len(list_of_chars) - 1]
+    return list_of_chars
 
 
 
